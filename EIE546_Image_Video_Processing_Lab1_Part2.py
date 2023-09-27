@@ -234,5 +234,5 @@ if __name__ == '__main__':
     # menu(raw_file, n_frames, width, height)
     # seek_video(raw_file, n_frames, width, height)
     # play_from_seek_video(raw_file, n_frames, width, height)
-    play_pause_video(raw_file, n_frames, width, height)
+    # play_pause_video(raw_file, n_frames, width, height)
     
