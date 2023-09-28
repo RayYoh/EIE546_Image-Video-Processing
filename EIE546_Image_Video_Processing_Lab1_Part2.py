@@ -14,7 +14,7 @@ import time
 import numpy as np
 
 
-def read_image_config(file='video.yaml'):
+def read_video_config(file='video.yaml'):
     """Read the configuration file of the image.
     
     Args:
@@ -228,7 +228,7 @@ def menu(raw_file, n_frames, width, height, sleep_time = 0):
 
 if __name__ == '__main__':
 
-    raw_file, width, height, fp, n_frames = read_image_config(file='video.yaml')
+    raw_file, width, height, fp, n_frames = read_video_config(file='video.yaml')
 
     # play_video(raw_file, n_frames, width, height, sleep_time = 0.05) # e.g. 0.1, 0.01
     # menu(raw_file, n_frames, width, height)
